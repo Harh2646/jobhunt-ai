@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────
+#  .gitignore — files NOT to push to GitHub
+# ─────────────────────────────────────────────
+
+# Secret keys
+.env
+
+# Database (too large, regenerates automatically)
+data/jobhunt.db
+
+# Generated reports
+output/reports/*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+resume.pdf
